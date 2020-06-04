@@ -1,0 +1,82 @@
+>>> Toiminnot
+
+>> Introteksti
+
+Intron tulostaminen on toiminto.
+Intron tulostamisen komento on "tulosta introteksti".
+Intron tulostamisen aikana:
+	Sano "Sinä olet Merilinnan seriffi. Sinun tehtäväsi on löytää ja pidättää rikolliset.[rivinvaihto][rivinvaihto]".
+	Sano "Kirjoita 'ohje' saadaksesi ohjeet.".
+
+>> Avun pyytäminen
+
+Avun pyytäminen on toiminto.
+Tulkitse "apua" avun pyytämisenä.
+Tulkitse "ohje" avun pyytämisenä.
+Tulkitse "help" avun pyytämisenä.
+
+Avun pyytämisen jälkeen:
+	Sano "'Putkaseikkailu' on suomenkielinen tekstiseikkailu.[rivinvaihto][rivinvaihto]".
+	Tulosta introteksti.
+	Sano "Voit pidättää henkilön komennolla 'pidätä henkilö rikoksesta', esimerkiksi:[rivinvaihto]".
+	Sano "> pidätä jaakko varkaudesta[rivinvaihto][rivinvaihto]".
+	Sano "Merilinnan rikoslaki tuntee seuraavat rikokset ja rangaistukset:[rivinvaihto]".
+	Sano "- petos: 2 sekeliä[rivinvaihto]".
+	Sano "- kavallus: 4 sekeliä[rivinvaihto]".
+	Sano "- pahoinpitely: 5 sekeliä ja 30 päivää putkassa[rivinvaihto]".
+	Sano "- ryöstö: 10 sekeliä ja 100 päivää putkassa[rivinvaihto]".
+	Sano "- murha: 30 sekeliä ja 5 000 päivää putkassa[rivinvaihto]".
+	Sano "- maanpetos: 10 000 päivää putkassa[rivinvaihto]".
+	Sano "- avunanto rikokseen: 2 sekeliä ja 14 päivää putkassa[rivinvaihto]".
+	Sano "[rivinvaihto]".
+	Sano "Kokeile seuraavia komentoja:[rivinvaihto]".
+	Sano "- 'tutki ilmoitustaulua' (lyhenne: 't taulu')[rivinvaihto]".
+	Sano "- 'puhu pormestarille' (lyhenne: 't taulu')[rivinvaihto]".
+	Sano "- 'mene etelään' (lyhenne: 'e', etelässä on pääkatu)[rivinvaihto]".
+	Sano "- 'esineet'[rivinvaihto]".
+	Sano "- 'kello'[rivinvaihto]".
+	Sano "[rivinvaihto]".
+	Sano "Tärkeät mekaniikat:[rivinvaihto]".
+	Sano "- Suunnat: Huoneet on järjestetty ilmansuuntiin toisiinsa nähden. Liikkuminen on helpointa suuntien mukaan.[rivinvaihto]".
+	Sano "- Esineet: 'tutki' kuvailee esinettä, 'ota' ottaa sen mukaan, 'esineet' tulostaa mukana olevat esineet.[rivinvaihto]".
+	Sano "- Putka: 'putka' kertoo, keitä on pidätetty.[rivinvaihto]".
+
+>> Huoneen katsominen
+
+Tulkitse "katso [huonetta]" huoneen esittelemisenä.
+Tulkitse "tutki [huonetta]" huoneen esittelemisenä.
+Tulkitse "t [huone]" huoneen esittelemisenä.
+
+>> Astuminen ja nouseminen
+
+Tulkitse "astu [huoneeseen]" huoneeseen liikkumisena.
+Tulkitse "astu [huoneelle]" huoneeseen liikkumisena.
+Tulkitse "nouse [huoneeseen]" huoneeseen liikkumisena.
+Tulkitse "nouse [huoneelle]" huoneeseen liikkumisena.
+
+>> Kertominen
+
+Tulkitse "puhu [ihmiselle] [asiasta]" kertomisena.
+Tulkitse "puhu [asiasta] [ihmiselle]" kertomisena.
+Tulkitse "mainitse [ihmiselle] [asiasta]" kertomisena.
+Tulkitse "mainitse [asiasta] [ihmiselle]" kertomisena.
+
+> Kaikille ihmisille voi puhua.
+
+Puhumisen lähestyttävyysehtoa ei sovelleta.
+
+>> Kuoleminen
+
+Ihminen voi olla kuollut.
+
+>> Lapsi
+
+Lapsi on ihmisen alakäsite.
+
+>> Tutkiminen
+
+Esine on joko tutkimaton tai tutkittu.
+Esine on yleensä tutkimaton.
+
+Esineen katsomisen jälkeen:
+	Se on nyt tutkittu.

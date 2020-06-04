@@ -1,0 +1,30 @@
+Satama on huone pääkadusta länteen.
+"Satamassa on kaksi venettä: 'Kiihkeä merivirta' (pohjoispuolella) ja 'Laskuveden aika' (eteläpuolella). Idässä on tie pääkadulle."
+
+Kiihkeä merivirta on huone satamasta pohjoiseen.
+"..."
+Tulkitse "merivirta" Kiihkeänä merivirtana.
+
+Laskuveden aika on huone satamasta etelään.
+"..."
+Tulkitse "laskuvesi" Laskuveden aikana.
+Tulkitse "aika" Laskuveden aikana.
+
+Avaa nimiavaruus (satama).
+
+Roska-auto on kiinteä esine satamassa.
+"Keltainen kaupungin roska-auto."
+Tulkitse "auto" roska-autona.
+
+Roska-auton listaamisen sijasta:
+    Sano "Kirkkaankeltainen roska-auto on pysäköity 'Kiihkeän merivirran' eteen.".
+
+>> Kiihkeä merivirta
+
+Sanna on maanpetokseen syyllistynyt ihminen Kiihkeässä merivirrassa.
+"Sanna Virta on kaupungin ahkerimpia roskakuskeja."
+Tulkitse "Virta" Sannana.
+Tulkitse "Sanna Virta" Sannana.
+Tulkitse "roskakuski" Sannana.
+
+Sulje nimiavaruus.

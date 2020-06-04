@@ -1,0 +1,40 @@
+Koulu on huone pääkadusta kaakkoon.
+"Merilinnan koulun piha on värikäs. Näet lännessä pienen sivukadun. Pääkatu on luoteessa."
+
+Avaa nimiavaruus (koulu).
+
+Koulun kello on kiinteä listaamaton kello koululla.
+
+Koululainen on lapsi.
+"Tavanomainen koululainen, he näyttävät kaikki samalta."
+Tulkitse "oppilas" koululaisena.
+Koulussa on 24 koululaista.
+
+Lapselle puhumisen aikana:
+    Kerran:
+        Sano "'Mene pois kyttä!' sinulle huudetaan.".
+    Sitten:
+        Sano "'Mä en tiedä mitään!' lapsi väittää uhmakkaasti.".
+    Sitten:
+        Sano "'Minä tunnen yhden roskakuskin. Sekin on parempi ammatti kuin seriffi.'".
+    Sitten:
+        Sano "'Sinäkin kuvittelet kai olevasi roskakuski, kun poistat roskan kaduilta. Itse olet roskaa!'".
+    Sitten:
+        Sano "'Sanna Virta on paras roskakuski, jonka tiedän. Hän on opettanut meille niin paljon juttuja.'".
+    Sitten:
+        Sano "'Kunpa Sanna tulisi tänne ja korjaisi sinutkin pois roska-autollaan.'".
+    Muuten:
+        Sano "Lapset välttelevät sinua.".
+
+Joonas on pahoinpitelyyn syyllistynyt lapsi koululla.
+"Joonas on impulsiivinen ja nenäkäs lapsi."
+Tulkitse "Jokela" Joonaksena.
+Tulkitse "Joonas Jokela" Joonaksena.
+
+Lapsen rikoksesta pidättämisen jälkeen:
+    Sano "Lapset pelästyvät ja hajaantuvat vikkelästi eri suuntiin.".
+    Toista jokaiselle lapselle (L) pelaajan sijainnin henkilöjoukossa:
+        L on nyt piilossa.
+        L:n sijainti on nyt seinä.
+
+Sulje nimiavaruus.

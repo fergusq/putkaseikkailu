@@ -1,0 +1,105 @@
+Pääkatu on huone toimistosta etelään.
+"Aurinko valaisee pääkadun varrella kaikki Merilinnan tärkeät rakennukset. Pohjoisessa on oma toimistosi. Etelässä on kaupungintalo. Kaakossa on koulu. Lännessä on satama. Idässä on kaupunginportti."
+
+Avaa nimiavaruus (pääkatu).
+
+Parrakas mies on ihminen pääkadulla.
+"Hänellä on muhkea parta ja sadeviitta."
+Tulkitse "mies" parrakkaana miehenä.
+
+Vapaan parrakkaan miehen listaamisen sijasta:
+    Sano "Parrakas sadeviittaan pukeutunut mies istuu pöydän vieressä olevalla tuolilla.".
+
+Ulappa on parrakkaalle miehelle kuuluva valenimi.
+Tulkitse "Meri" Ulappana.
+
+Poninhäntäinen nainen on ihminen pääkadulla.
+"Hänellä on pitkä poninhäntä."
+Tulkitse "nainen" poninhäntäisenä naisena.
+
+Parrakkaan miehen ruumis on esine.
+"Mies makaa maassa verisenä. Häntä on pistetty selkään puukolla. Rikosanalyysi tunnistaa hänet Ulappa Mereksi. Murhaajan todetaan olevan Anni Luoto."
+Tulkitse "ruumis" parrakkaan miehen ruumiina.
+
+Parrakkaalle miehelle puhumisen aikana:
+    Kerran:
+        Sano "'Onko tuo tekoparta!' kysyt mieheltä ja vedät hänen naamionsa sivuun. 'Ulappa Meri! Miten tyhmänä sinä minua oikein pidät?'[rivinvaihto][rivinvaihto]".
+        Sano "'Anna minun selittää...' mies anelee.".
+        Ulappa on nyt paljastunut.
+        Parrakkaan miehen nimi koodissa on nyt "Ulappa".
+        Parrakkaan miehen ruumiin nimi koodissa on nyt "Ulapan ruumis".
+        Jos poninhäntäinen nainen on vapaa:
+            Sano "'Hän ei ole tehnyt mitään!' nainen hänen vieressään sanoo. 'Usko meitä!'".
+    Sitten:
+        Sano "'Tämä näyttää pahalta, mutta en ole tehnyt mitään väärää', mies sanoo.[rivinvaihto][rivinvaihto]".
+        Sano "'Miksi sinulla sitten on tekoparta?' kysyt.[rivinvaihto][rivinvaihto]".
+        Sano "'Anni Luoto aikoo tapaa minut! Minä rakastin hänen miestään, ja hän on jo kuollut. Hän levittää minusta huhuja, että olisin muka rikollinen.'".
+    Muuten:
+        Sano "'Auta, ole kiltti! Pidätä se nainen.'".
+
+Vapaan poninhäntäisen naisen listaamisen sijasta:
+    Sano "Kahvia juoden päivää viettää poninhäntäinen nainen.".
+
+Vapaalle poninhäntäiselle naiselle puhumisen aikana:
+    Jos parrakas mies on kuollut:
+        Sano "'Ulappa on kuollut! Tämä on sinun syytäsi!'".
+    Muuten:
+        Jos Ulappa on paljastunut:
+            Kerran:
+                Sano "'Sinun on uskottava, se hullu nainen aikoo tappaa hänet! Suojele häntä!'".
+            Muuten:
+                Jos parrakas mies on vapaa:
+                    Sano "Nainen ja Ulappa pyytävät sinua auttamaan.".
+                Muuten:
+                    Sano "Nainen pyytää sinua auttamaan Ulappaa.".
+        Muuten:
+            Jos parrakas mies on vapaa:
+                Sano "'Konstaapeli! Ystäväni haluaa puhua sinulle yhdestä asiasta.'".
+            Muuten:
+                Sano "'Päivää konstaapeli! Toivottavasti suojelet ystävääni, hän ei ole tehnyt mitään pahaa.'".
+
+Pidätetylle poninhäntäiselle naiselle puhumisen aikana:
+    Sano "'Mistä minua syytetään! Vapauta minut! Tämä on laitonta!'".
+
+Heti pääkadun kuvailemisen jälkeen:
+    Sano "Kadunkulmassa on paikallinen kahvila 'Café Yläjuoksu'. Sen ulkopuolella on pöytä.".
+
+Pöytä on kiinteä listaamaton esine pääkadulla.
+"Tavallinen kahvilan pöytä."
+
+Anni on murhaan syyllistynyt ihminen.
+"Vihainen Anni Luoto janoaa kostoa!"
+Annin nimi koodissa on "Anni Luoto".
+Tulkitse "Anni" Annina.
+Tulkitse "Luoto" Annina.
+
+Annille puhumisen aikana:
+    Sano "Anni ei näytä kiinnostuneelta.".
+
+Ajan kulumisen jälkeen:
+    Jos nykyisen kellonajan minuuttimäärä = 45:
+        Anni fokalisoijana:
+            Annin sijainti on nyt pääkatu.
+            Anni on nyt näkyvillä.
+            Jos pelaaja on näkyvillä:
+                Sano "Kahvilan sisältä astuu ulos nainen. Tunnistat hänet Anni Luodoksi.".
+            Jos parrakas mies on vapaa:
+                Parrakas mies on nyt kuollut.
+                Parrakas mies on nyt piilossa.
+                Parrakkaan miehen sijainti on nyt seinä.
+                Parrakkaan miehen ruumis on nyt näkyvillä.
+                Jos pelaaja on näkyvillä:
+                    Sano "Ennen kuin ehdit tehdä mitään, hän kävelee [Parrakkaan miehen] luo ja pistää häntä puukolla selkään.".
+
+Annin rikoksesta pidättämisen jälkeen:
+    Jos parrakas mies on pidätetty:
+        Jos Ulappa on paljastunut:
+            Sano "Varmistat, että Anni Luoto laitetaan eri selliin Ulappa Meren kanssa, jotta vaaraa ei olisi.".
+        Muuten:
+            Anni fokalisoijana:
+                Parrakas mies on nyt kuollut.
+                Parrakas mies on nyt piilossa.
+                Parrakkaan miehen sijainti on nyt seinä.
+                Parrakkaan miehen ruumis on nyt näkyvillä.
+
+Sulje nimiavaruus.

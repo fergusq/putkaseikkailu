@@ -1,0 +1,32 @@
+Valenimi on käsite.
+Valenimi on yleensä inhimillinen.
+Valenimi on joko paljastumaton tai paljastunut.
+Valenimi on yleensä paljastumaton.
+Valenimellä on omistajaksi kutsuttu ihminen.
+
+Määritelmä. Valenimi (V) on "[ihmiselle (I)] kuuluva", jos:
+    V:n omistaja on I
+
+[Valenimelle] puhuminen on toiminto.
+Tulkitse "puhu [valenimelle]" valenimelle puhumisena.
+
+Ennen valenimelle puhumista:
+	Jos hän on paljastumaton:
+		Sano fokalisoijalle "Et tiedä, kuka [hän] on.".
+		Keskeytä toiminto.
+	(paljastumisehto)
+
+Valenimelle puhumisen aikana:
+	Puhu nyt hänen omistajalleen.
+
+[Valenimen] [rikoksesta] pidättäminen on toiminto.
+Tulkitse "pidätä [valenimi] [rikoksesta]" valenimen rikoksesta pidättämisenä.
+
+Ennen valenimen rikoksesta pidättämistä:
+	Jos hän on paljastumaton:
+		Sano fokalisoijalle "Et tiedä, kuka [hän] on.".
+		Keskeytä toiminto.
+	(paljastumisehto)
+
+Valenimen (V) rikoksesta pidättämisen aikana:
+	Pidätä nyt V:n omistaja siitä.

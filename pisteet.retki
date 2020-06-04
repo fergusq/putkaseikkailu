@@ -1,0 +1,53 @@
+Avaa nimiavaruus.
+
+Pistemäärä on kokonaisluku.
+Pistemäärä on alussa 0.
+
+Tienattu sakko on kokonaisluku.
+Tienattu sakko on alussa 0.
+
+Muista pääkatu.
+Muista kaupungintalo.
+Muista koulu.
+Muista satama.
+
+Ajan kulumisen jälkeen:
+	Jos nykyisen kellonajan minuuttimäärä = 59:
+		Sano "Joudut keskeyttämään sen mitä teet, kun kaupungin porteilta kuuluu moottorin ääntä. Liiton poliisi on saapunut toteuttamaan tutkintaa toimistasi kuultuaan, että saatat pidättää viattomia ilman syytä.[rivinvaihto][rivinvaihto]".
+		Toista jokaiselle syylliselle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
+			Jos I:n pidättämisen syy on I:n rikos:
+				Sano "Pidätit [I:n] [i:n rikoksesta]. +1 piste[rivinvaihto]".
+				Pistemäärä on nyt (pistemäärä + 1).
+			Muuten:
+				Sano "Pidätit [I:n] väärästä rikoksesta. -1 piste[rivinvaihto]".
+				Pistemäärä on nyt (pistemäärä - 1).
+		Toista jokaiselle syyttömälle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
+			Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -5 pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - 5).
+		Toista jokaiselle lapselle (L) putkan henkilöjoukossa:
+			Sano "Pidätit lapsen [l:n pidättämisen syystä]. -5 pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - 5).
+		Jos Anni on vapaa:
+			Sano "Et pidättänyt Anni Luotoa, tunnettua rikollista. -5 pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - 5).
+		Jos Joonas on vapaa:
+			Sano "Et pidättänyt Joonas Jokelaa, tunnettua rikollista. -5 pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - 5).
+		Jos parrakas mies on kuollut:
+			Sano "[Parrakas mies] kuoli. -30 pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - 30).
+		Toista jokaiselle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
+			Tienattu sakko on nyt (tienattu sakko + I:n pidättämisen syyn sakko).
+		Jos pormestari on vapaa:
+			Sano "Saat [tienattu sakko] pistettä keräämistäsi sakoista. +[tienattu sakko] pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä + tienattu sakko).
+		Muuten:
+			Sano "Liiton poliisi takavarikoi kaikki [tienattu sakko] sekeliä keräämiäsi sakkoja. 0 pistettä[rivinvaihto]".
+		Sano "[rivinvaihto]Pisteet yhteensä: [pistemäärä] pistettä[rivinvaihto]".
+		Jos pistemäärä < 0:
+			Sano "Hävisit pelin.".
+		Muuten:
+			Sano "Läpäisit pelin.".
+		Lopeta peli.
+
+Sulje nimiavaruus.

@@ -1,0 +1,80 @@
+Rikos on käsite.
+Rikoksella on vankeusajaksi kutsuttu kokonaisluku.
+Rikoksella on sakoksi kutsuttu kokonaisluku.
+
+Määritelmä. Rikos on "vankeusajalla [kokonaisluku (V)] päivää ja sakolla [kokonaisluku (S)] sekeliä", jos:
+    Sen vankeusaika on V
+    Sen sakko on S
+
+Petos on rikos vankeusajalla 0 päivää ja sakolla 2 sekeliä.
+Kavallus on rikos vankeusajalla 0 päivää ja sakolla 4 sekeliä.
+Pahoinpitely on rikos vankeusajalla 30 päivää ja sakolla 5 sekeliä.
+Ryöstö on rikos vankeusajalla 100 päivää ja sakolla 10 sekeliä.
+Tulkitse "varkaus" ryöstönä.
+Murha on rikos vankeusajalla 5000 päivää ja sakolla 30 sekeliä.
+Maanpetos on rikos vankeusajalla 10000 päivää ja sakolla 0 sekeliä.
+Avunanto rikokseen on rikos vankeusajalla 14 päivää ja sakolla 2 sekeliä.
+Tulkitse "avunanto" avunantona rikokseen.
+
+>> Syyllisyys
+
+Ihminen on joko syytön tai syyllinen.
+Ihminen on yleensä syytön.
+Ihmisellä on rikokseksi kutsuttu rikos.
+
+Määritelmä. Ihminen on "[rikokseen] syyllistynyt", jos:
+    hänen rikoksensa on se
+    hän on syyllinen
+
+>> Vapaus
+
+Ihminen on joko vapaa tai pidätetty.
+Ihminen on yleensä vapaa.
+Ihmisellä on pidättämisen syyksi kutsuttu rikos.
+
+>> Pidättäminen
+
+[Ihmisen] [rikoksesta] pidättäminen on toiminto.
+Pidättämisen komento on "pidätä nyt [ihminen] [rikoksesta]".
+Tulkitse "pidätä [ihminen] [rikoksesta]" pidättämisenä.
+
+Ennen pelaajan rikoksesta pidättämistä:
+    Sano "Et voi pidättää itseäsi!".
+    Keskeytä toiminto.
+    (epäitseysehto)
+
+Ennen piilossa olevan ihmisen rikoksesta pidättämistä:
+    Sano "Hän ei ole paikalla.".
+    Keskeytä toiminto.
+    (paikallaoloehto)
+
+Ihmisen rikoksesta pidättämisen aikana:
+    Hän on nyt pidätetty.
+    Hänen pidättämisen syy on nyt se.
+    Hän fokalisoijana:
+        Siirry nyt putkaan.
+
+Ihmisen rikoksesta pidättämisen jälkeen:
+    Sano "Pidätät [Hänen] [siitä]. Apulaisseriffi saattaa hänet putkaan.".
+    Jos sen sakko > 0:
+        Sano "Pormestari ilahtuu, sillä kaupunki saa nyt [sen sakko] sekeliä sakkorahoja.".
+
+[Ihmisen] ilman rikosta pidättäminen on toiminto.
+Tulkitse "pidätä [ihminen]" ihmisen ilman rikosta pidättämisenä.
+
+Ennen ihmisen (I) ilman rikosta pidättämistä:
+    Sano "Sinun on mainittava mistä rikoksesta [I] pidätetään: esim. 'pidätä [I] varkaudesta'".
+    Keskeytä toiminto.
+    (rikosehto)
+
+Avaa nimiavaruus.
+
+Pidätettyjen listaaminen on toiminto.
+Tulkitse "listaa pidätetyt" pidätettyjen listaamisena.
+Tulkitse "putka" pidätettyjen listaamisena.
+
+Pidätettyjen listaamisen aikana:
+    Toista jokaiselle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
+        Sano "Olet pidättänyt [I:n] [i:n pidättämisen syystä].[rivinvaihto]".
+
+Sulje nimiavaruus.

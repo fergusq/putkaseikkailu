@@ -1,0 +1,85 @@
+Kaupungintalo on huone pääkadusta etelään.
+"Aurinko paistaa sisään kaupungintalon avokonttoriin, jossa tärkeimmät kaupungin virkamiehet työskentelevät."
+
+Kaupungintalon takapiha on huone koulusta länteen.
+"Pieni syrjäkuja avautuu kaupungintalon taakse. Idässä on koulu. Seinän vieressä on roskapönttöjä ja maassa lojuu paperia."
+Tulkitse "sivukatu" kaupungintalon takapihana.
+Tulkitse "syrjäkatu" kaupungintalon takapihana.
+Tulkitse "sivukuja" kaupungintalon takapihana.
+Tulkitse "syrjäkuja" kaupungintalon takapihana.
+Tulkitse "kuja" kaupungintalon takapihana.
+
+Avaa nimiavaruus (kaupungintalo).
+
+> Sisätila
+
+Pormestari on maanpetokseen syyllistynyt ihminen kaupungintalolla.
+"Pormestari näprää hermostuneesti silmälasejaan ja näyttää valmiilta syyttämään sinua tehottomuudesta."
+
+Vapaan pormestarin listaamisen sijasta:
+        Sano "Pormestari seisoo huoneen päässä vahtimassa virkamiehiä.".
+
+Vapaalle pormestarille puhumisen aikana:
+    Sano "'Seriffi, mitä sinä täällä teet? Sinun pitäisi olla pidättämässä rikollisia.'".
+
+Pidätetylle pormestarille puhumisen aikana:
+    Sano "'Jos et nyt heti vapauta minua, erotan sinut!'".
+
+Punapaitainen virkailija on maanpetokseen syyllistynyt ihminen kaupungintalolla.
+"Tällä virkailijalla on punainen neulepusero. Hän vaikuttaa kiireiseltä."
+Tulkitse "virkailija" punapaitaisena virkailijana.
+Tulkitse "punapaita" punapaitaisena virkailijana.
+
+Silppuri on kiinteä listaamaton esine kaupungintalolla.
+"Iso laatikkomainen silppuri vaikuttaa olevan jotenkin kiinteästi kiinni seinässä."
+
+Vapaan punapaitaisen virkailijan listaamisen sijasta:
+    Sano "Punapaitainen virkailija on juuri siirtämässä papereita isosta pinosta seinän vieressä olevaan silppuriin.".
+
+Vapaalle punapaitaiselle virkailijalle puhumisen aikana:
+    Jos silppuri on tutkimaton:
+        Sano "'Älä häiritse minua, olen kiireinen.'".
+    Muuten:
+        Kerran:
+            Sano "'Silppuri on... hajalla. Paperit menevät tästä roskiin. Mutta älä huoli, ei kukaan niistä välitä.'".
+        Muuten:
+            Sano "'Usko nyt, ei sillä ole väliä.'".
+
+Tunneli on kiinteä listaamaton esine.
+"Silppuriin pudotetut paperit liukuvat tunneliin, jossa näkyy päivänvaloa."
+
+Silppurin katsomisen jälkeen:
+    Kerran:
+        Sano "Marssit sen luokse ja avaat kannen. Laatikon sisällä ei olekaan koneistoa vaan jonkinlainen tunneli, joka katoaa seinän sisään.".
+        Tunneli on nyt kaupungintalolla.
+        Jos punapaitainen virkailija on vapaa:
+            Sano "[rivinvaihto][rivinvaihto]'Mikä ihmeen silppuri tämä oikein on?' kysyt hermostuneelta punapaitaiselta virkailijalta.[rivinvaihto][rivinvaihto]".
+            Sano "'Öh, se on integroitu taloon...'".
+
+Vihreäpaitainen virkailija on ihminen kaupungintalolla.
+"Tällä virkailijalla on vihreä pusero."
+Tulkitse "virkailija" vihreäpaitaisena virkailijana.
+Tulkitse "vihreäpaita" vihreäpaitaisena virkailijana.
+
+Vapaan vihreäpaitaisen virkailijan listaamisen sijasta:
+    Sano "Työpisteellään istuskelee vihreäpaitainen virkailija.".
+
+Vapaalle vihreäpaitaiselle virkailijalle puhumisen aikana:
+    Sano "'Täällä on ollut vaikea keskittyä sen jälkeen, kun pormestari määräsi nuo kaikki paperit tuhottavaksi.'".
+
+> Takapiha
+
+Roskapönttö on kiinteä listaamaton esine kaupungintalon takapihalla.
+"Roskapöntöt ovat tyhjiä, ne on ilmeisesti äskettäin tyhjennetty."
+Tulkitse "pönttö" roskapönttönä.
+Tulkitse "roska" roskapönttönä.
+
+Paperikasa on kiinteä listaamaton esine kaupungintalon takapihalla.
+"Paperit ovat ilmeisesti pudonneet ikkunasta. Tarkempi tutkinta osoittaa niiden olevan kaupungin kirjanpitoa. Osa papereista on ilmeisesti salaisia."
+Tulkitse "paperi" paperikasana.
+Tulkitse "kasa" paperikasana.
+
+Ikkuna on kiinteä listaamaton esine kaupungintalon takapihalla.
+"Ikkunan alla on pieni kasa papereita."
+
+Sulje nimiavaruus.

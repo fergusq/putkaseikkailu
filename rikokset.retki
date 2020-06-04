@@ -1,3 +1,5 @@
+>>> Rikokset
+
 Rikos on käsite.
 Rikoksella on vankeusajaksi kutsuttu kokonaisluku.
 Rikoksella on sakoksi kutsuttu kokonaisluku.
@@ -59,6 +61,8 @@ Ihmisen rikoksesta pidättämisen jälkeen:
     Jos sen sakko > 0:
         Sano "Pormestari ilahtuu, sillä kaupunki saa nyt [sen sakko] sekeliä sakkorahoja.".
 
+>> Ilman rikosta pidättäminen
+
 [Ihmisen] ilman rikosta pidättäminen on toiminto.
 Tulkitse "pidätä [ihminen]" ihmisen ilman rikosta pidättämisenä.
 
@@ -66,6 +70,8 @@ Ennen ihmisen (I) ilman rikosta pidättämistä:
     Sano "Sinun on mainittava mistä rikoksesta [I] pidätetään: esim. 'pidätä [I] varkaudesta'".
     Keskeytä toiminto.
     (rikosehto)
+
+>> Pidätettyjen listaaminen
 
 Avaa nimiavaruus.
 

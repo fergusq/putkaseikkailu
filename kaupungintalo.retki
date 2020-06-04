@@ -1,3 +1,5 @@
+>>> Kaupungintalo
+
 Kaupungintalo on huone pääkadusta etelään.
 "Aurinko paistaa sisään kaupungintalon avokonttoriin, jossa tärkeimmät kaupungin virkamiehet työskentelevät."
 
@@ -11,7 +13,7 @@ Tulkitse "kuja" kaupungintalon takapihana.
 
 Avaa nimiavaruus (kaupungintalo).
 
-> Sisätila
+>> Sisätila
 
 Pormestari on maanpetokseen syyllistynyt ihminen kaupungintalolla.
 "Pormestari näprää hermostuneesti silmälasejaan ja näyttää valmiilta syyttämään sinua tehottomuudesta."
@@ -67,7 +69,7 @@ Vapaan vihreäpaitaisen virkailijan listaamisen sijasta:
 Vapaalle vihreäpaitaiselle virkailijalle puhumisen aikana:
     Sano "'Täällä on ollut vaikea keskittyä sen jälkeen, kun pormestari määräsi nuo kaikki paperit tuhottavaksi.'".
 
-> Takapiha
+>> Takapiha
 
 Roskapönttö on kiinteä listaamaton esine kaupungintalon takapihalla.
 "Roskapöntöt ovat tyhjiä, ne on ilmeisesti äskettäin tyhjennetty."

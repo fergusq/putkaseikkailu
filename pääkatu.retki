@@ -1,7 +1,17 @@
+>>> Pääkatu
+
 Pääkatu on huone toimistosta etelään.
 "Aurinko valaisee pääkadun varrella kaikki Merilinnan tärkeät rakennukset. Pohjoisessa on oma toimistosi. Etelässä on kaupungintalo. Kaakossa on koulu. Lännessä on satama. Idässä on kaupunginportti."
 
+Heti pääkadun kuvailemisen jälkeen:
+    Sano "Kadunkulmassa on paikallinen kahvila 'Café Yläjuoksu'. Sen ulkopuolella on pöytä.".
+
 Avaa nimiavaruus (pääkatu).
+
+>> Asiat
+
+Pöytä on kiinteä listaamaton esine pääkadulla.
+"Tavallinen kahvilan pöytä."
 
 Parrakas mies on ihminen pääkadulla.
 "Hänellä on muhkea parta ja sadeviitta."
@@ -17,9 +27,14 @@ Poninhäntäinen nainen on ihminen pääkadulla.
 "Hänellä on pitkä poninhäntä."
 Tulkitse "nainen" poninhäntäisenä naisena.
 
+Vapaan poninhäntäisen naisen listaamisen sijasta:
+    Sano "Kahvia juoden päivää viettää poninhäntäinen nainen.".
+
 Parrakkaan miehen ruumis on esine.
 "Mies makaa maassa verisenä. Häntä on pistetty selkään puukolla. Rikosanalyysi tunnistaa hänet Ulappa Mereksi. Murhaajan todetaan olevan Anni Luoto."
 Tulkitse "ruumis" parrakkaan miehen ruumiina.
+
+>> Puhuminen
 
 Parrakkaalle miehelle puhumisen aikana:
     Kerran:
@@ -36,9 +51,6 @@ Parrakkaalle miehelle puhumisen aikana:
         Sano "'Anni Luoto aikoo tapaa minut! Minä rakastin hänen miestään, ja hän on jo kuollut. Hän levittää minusta huhuja, että olisin muka rikollinen.'".
     Muuten:
         Sano "'Auta, ole kiltti! Pidätä se nainen.'".
-
-Vapaan poninhäntäisen naisen listaamisen sijasta:
-    Sano "Kahvia juoden päivää viettää poninhäntäinen nainen.".
 
 Vapaalle poninhäntäiselle naiselle puhumisen aikana:
     Jos parrakas mies on kuollut:
@@ -61,11 +73,7 @@ Vapaalle poninhäntäiselle naiselle puhumisen aikana:
 Pidätetylle poninhäntäiselle naiselle puhumisen aikana:
     Sano "'Mistä minua syytetään! Vapauta minut! Tämä on laitonta!'".
 
-Heti pääkadun kuvailemisen jälkeen:
-    Sano "Kadunkulmassa on paikallinen kahvila 'Café Yläjuoksu'. Sen ulkopuolella on pöytä.".
-
-Pöytä on kiinteä listaamaton esine pääkadulla.
-"Tavallinen kahvilan pöytä."
+>> Anni Luoto
 
 Anni on murhaan syyllistynyt ihminen.
 "Vihainen Anni Luoto janoaa kostoa!"

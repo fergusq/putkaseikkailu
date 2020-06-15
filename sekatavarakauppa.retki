@@ -1,6 +1,6 @@
 >>> Sekatavarakauppa
 
-Sekatavarakauppa on huone pääkadulta itään.
+Sekatavarakauppa on yleinen huone pääkadusta itään.
 "Kaupungin suurin kauppa eli Merilinnan sekatavarakauppa on täynnä hyllyjä ja erikoisia tuotteita. Uloskäynti on lännessä."
 Tulkitse "kauppa" sekatavarakauppana.
 
@@ -31,19 +31,5 @@ Vapaalle kauppiaalle puhumisen sijasta:
         Sano "'Olivat varmaan välitunnilla. Sinun pitäisi kovistella heitä.'".
     Muuten:
         Sano "'Lapsia lukuun ottamatta täällä on hyvin rauhallista.'".
-
->> Mustaan mekkoon pukeutunut nainen
-
-Mustaan mekkoon pukeutunut nainen on kiristykseen syyllistynyt ihminen sekatavarakaupassa.
-"Hyllyjen välissä kävelee mustaan mekkoon pukeutunut nainen. Asuvalinta on epätavallinen, sillä Merilinnassa mustaa vaatetta pidetään lähinnä surressa jonkun kuolemaa."
-Tulkitse "nainen" mustaan mekkoon pukeutuneena naisena.
-Tulkitse "mekkoon pukeutunut nainen" mustaan mekkoon pukeutuneena naisena.
-Tulkitse "mekkonainen" mustaan mekkoon pukeutuneena naisena.
-
-Vapaan mustaan mekkoon pukeutuneen naisen listaamisen sijasta:
-    Sano "Hyllyjen välissä kävelee mustaan mekkoon pukeutunut nainen.".
-
-Vapaalle mustaan mekkoon pukeutuneelle naiselle puhumisen aikana:
-    Sano "'Jos sallinet haluaisin olla rauhassa. Puolisoni kuoli eilen.'".
 
 Sulje nimiavaruus.

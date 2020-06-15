@@ -1,0 +1,66 @@
+>>> Vaeltajat
+
+Määritelmä. Huone (A) on "[huoneen (B)] vieressä", jos:
+    B:n naapurihuonejoukko sisältää A:n
+
+Vaeltaja on ihmisen alakäsite.
+
+Vaeltaja on joko kiireinen tai kiireetön.
+Vaeltaja on yleensä kiireetön.
+
+Vaeltajalle puhumisen aikana:
+    Hän on nyt kiireinen.
+
+Heti ajan kulumisen jälkeen:
+    Toista jokaiselle vaeltajalle (V):
+        Jos V on kiireinen:
+            V on nyt kiireetön.
+        Muuten:
+            Jos satunnaisluku välillä yhdestä kymmeneen > 7:
+                Jos V:n sijainti on pelaajan sijainti:
+                    Sano "[V] kävelee pois.".
+                V fokalisoijana:
+                    Siirry nyt satunnaiseen yleiseen V:n sijainnin vieressä olevaan huoneeseen.
+                    Jos V:n sijainti on pelaajan sijainti:
+                        Sano "[V] kävelee paikalle.".
+
+>> Mustaan mekkoon pukeutunut nainen
+
+Mustaan mekkoon pukeutunut nainen on kiristykseen syyllistynyt vaeltaja satamassa.
+"Mustaan mekkoon pukeutunut nainen kiinnittää huomiota. Asuvalinta on epätavallinen, sillä Merilinnassa mustaa vaatetta pidetään lähinnä surressa jonkun kuolemaa."
+Tulkitse "nainen" mustaan mekkoon pukeutuneena naisena.
+Tulkitse "mekkoon pukeutunut nainen" mustaan mekkoon pukeutuneena naisena.
+Tulkitse "mekkonainen" mustaan mekkoon pukeutuneena naisena.
+
+Vapaan mustaan mekkoon pukeutuneen naisen listaamisen sijasta:
+    Sano "Huomaat mustaan mekkoon pukeutuneen naisen kävelemässä.".
+
+Vapaalle mustaan mekkoon pukeutuneelle naiselle puhumisen aikana:
+    Sano "'Jos sallinet haluaisin olla rauhassa. Puolisoni kuoli eilen.'".
+
+>> Runoilija
+
+Runoilija on vaeltaja pääkadulla.
+"Anarkistirunoilija tietää harmia. Hän kirjoittaa sanomalehtiin epäsopivia runoja pormestarista."
+Tulkitse "anarkisti" runoilijana.
+Tulkitse "anarkistirunoilija" runoilijana.
+Tulkitse "Merituuli" runoilijana.
+
+Vapaan runoilijan listaamisen sijasta:
+    Sano "Huomaat anarkistirunoilija Merituulen kävelemässä tarkkaillen ympäristöään, etsimässä uutta inspiraatiota ehkä.".
+
+Runoilijalle puhumisen aikana:
+    Kerran:
+        Sano "'Pormestari kirjoittaa nimen paperiin, roskiin se joutaa...' runoilija alkaa lausua".
+    Sitten:
+        Sano "'Silppuriin päätyy elämäntyö, roskiin se joutaa...'".
+    Sitten:
+        Sano "'Sopimus lentää tuulessa, roskiin se joutaa...'".
+    Sitten:
+        Sano "'Mutta roskat lentävät merelle, aaltojen armoille...'".
+    Sitten:
+        Sano "'Ja myrkyttävät luontomme ja pettävät kaupunkimme, nuo roskat pormestarin.'".
+    Sitten:
+        Sano "'Aika etevä runo eikö olekin?'".
+    Muuten:
+        Sano "'Suo anteeksi, keskittyisin mielelläni ajatustyöhöni.'".

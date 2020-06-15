@@ -1,0 +1,49 @@
+>>> Sekatavarakauppa
+
+Sekatavarakauppa on huone pääkadulta itään.
+"Kaupungin suurin kauppa eli Merilinnan sekatavarakauppa on täynnä hyllyjä ja erikoisia tuotteita. Uloskäynti on lännessä."
+Tulkitse "kauppa" sekatavarakauppana.
+
+Avaa nimiavaruus (sekatavarakauppa).
+
+>> Rekvisiitta
+
+Hylly on kiinteä listaamaton esine sekatavarakaupassa.
+"Hyllyt ovat täynnä erilaisia tuotteita, lähinnä ruokaa."
+
+Tuote on kiinteä listaamaton esine sekatavarakaupassa.
+"Kauppa myy ruokaa, vaatteita ja muita tarvikkeita."
+Tulkitse "ruoka" tuotteena.
+Tulkitse "vaate" tuotteena.
+Tulkitse "tarvike" tuotteena.
+
+>> Kauppias
+
+Kauppias on ihminen sekatavarakaupassa.
+
+Vapaan kauppiaan listaamisen sijasta:
+    Sano "Kauppias on tiskin takana valmiina palvelemaan asiakkaita.".
+
+Vapaalle kauppiaalle puhumisen sijasta:
+    Kerran:
+        Sano "'Arvaa mitä äsken tapahtui, seriffi. Joukko lapsia tuli ja ryösti karkkihyllyn ennen kuin ehdin tehdä mitään. Juoksivat pois välittömästi.'".
+    Sitten:
+        Sano "'Olivat varmaan välitunnilla. Sinun pitäisi kovistella heitä.'".
+    Muuten:
+        Sano "'Lapsia lukuun ottamatta täällä on hyvin rauhallista.'".
+
+>> Mustaan mekkoon pukeutunut nainen
+
+Mustaan mekkoon pukeutunut nainen on kiristykseen syyllistynyt ihminen sekatavarakaupassa.
+"Hyllyjen välissä kävelee mustaan mekkoon pukeutunut nainen. Asuvalinta on epätavallinen, sillä Merilinnassa mustaa vaatetta pidetään lähinnä surressa jonkun kuolemaa."
+Tulkitse "nainen" mustaan mekkoon pukeutuneena naisena.
+Tulkitse "mekkoon pukeutunut nainen" mustaan mekkoon pukeutuneena naisena.
+Tulkitse "mekkonainen" mustaan mekkoon pukeutuneena naisena.
+
+Vapaan mustaan mekkoon pukeutuneen naisen listaamisen sijasta:
+    Sano "Hyllyjen välissä kävelee mustaan mekkoon pukeutunut nainen.".
+
+Vapaalle mustaan mekkoon pukeutuneelle naiselle puhumisen aikana:
+    Sano "'Jos sallinet haluaisin olla rauhassa. Puolisoni kuoli eilen.'".
+
+Sulje nimiavaruus.

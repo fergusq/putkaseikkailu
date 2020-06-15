@@ -10,6 +10,7 @@ Määritelmä. Rikos on "vankeusajalla [kokonaisluku (V)] päivää ja sakolla [
 
 Petos on rikos vankeusajalla 0 päivää ja sakolla 2 sekeliä.
 Kavallus on rikos vankeusajalla 0 päivää ja sakolla 4 sekeliä.
+Kiristys on rikos vankeusajalla 20 päivä ja sakolla 10 sekeliä.
 Pahoinpitely on rikos vankeusajalla 30 päivää ja sakolla 5 sekeliä.
 Ryöstö on rikos vankeusajalla 100 päivää ja sakolla 10 sekeliä.
 Tulkitse "varkaus" ryöstönä.

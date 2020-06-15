@@ -4,11 +4,12 @@ Satama on huone pääkadusta länteen.
 "Satamassa on kaksi venettä: 'Kiihkeä merivirta' (pohjoispuolella) ja 'Laskuveden aika' (eteläpuolella). Idässä on tie pääkadulle."
 
 Kiihkeä merivirta on huone satamasta pohjoiseen.
-"..."
+"Sininen 'Kiihkeä merivirta' on telakoituna sataman pohjoispuolelle. Laituri on sen eteläpuolella. Vene on melko kallis ja hyvässä kunnossa."
+Tulkitse "kiihkeä" Kiihkeänä merivirtana.
 Tulkitse "merivirta" Kiihkeänä merivirtana.
 
 Laskuveden aika on huone satamasta etelään.
-"..."
+"Pieni vanha kalastusvene 'Laskuveden aika' on telakoituna sataman eteläpuolelle. Laituri on sen pohjoispuolella."
 Tulkitse "laskuvesi" Laskuveden aikana.
 Tulkitse "aika" Laskuveden aikana.
 
@@ -30,5 +31,44 @@ Sanna on maanpetokseen syyllistynyt ihminen Kiihkeässä merivirrassa.
 Tulkitse "Virta" Sannana.
 Tulkitse "Sanna Virta" Sannana.
 Tulkitse "roskakuski" Sannana.
+
+Vapaan Sannan listaamisen sijasta:
+    Sano "Roskakuskin vaatteisiin pukeutunut nainen tutkii papereita laivan hytissä.".
+
+Paperi on listaamaton esine Kiihkeässä merivirrassa.
+"Kun tutkit papereita, huomaat niiden sisältävän tietoja kaupunginhallituksen kokouksista."
+
+Vapaalle Sannalle puhumisen aikana:
+    Jos paperi on tutkimaton:
+        Kerran:
+            Sano "'Päivää seriffi! Mitä pidät pienestä veneestäni? Tämä on lepopaikkani pitkän päivän jäljeen.'".
+        Muuten:
+            Sano "'Olen nyt kiireinen. Jos tulet myöhemmin uudestaan voin näyttää paikkoja.'".
+    Muuten:
+        Kerran:
+            Sano "'Nämä ovat salaisia kaupungin papereita! Mistä sinä ne olet saanut?' kysyt roskakuskilta.[rivinvaihto]".
+            Sano "[rivinvaihto]".
+            Sano "'Löysin ne kadulta. Olin vasta tutustumassa mitä ne ovat, kun tulit.'".
+        Muuten:
+            Sano "'Olen nyt kiireinen. Jos tulet myöhemmin uudestaan voin esitellä venettäni.'".
+
+>> Laskuveden aika
+
+Syksy on ihminen Laskuveden ajalla.
+"Syksy on tunnettu vanha kalastaja ja suurin osa kaupunkilaisista ostaa kalansa häneltä. Hän lähentelee eläkepäiviään."
+Tulkitse "kalastaja" Syksynä.
+
+Vapaan Syksyn listaamisen sijasta:
+    Sano "Likaisiin vaatteisiin pukeutunut vanha kalastaja Syksy istuu veneessään.".
+
+Vapaalle Syksylle puhumisen sijasta:
+    Kerran:
+        Sano "'Konstaapeli! Mikä sattuma, olinkin aikeissa tulla puheillesi.'".
+    Sitten:
+        Sano "'Joku kävi juuri täällä uhkailemassa minua! Hän haluaisi, että myyn yritykseni hänelle jäätyäni eläkkeelle. Nimeni on kuulemma arvokas.'".
+    Sitten:
+        Sano "'Hän uhkasi vahingoittaa venettäni ellen tottele!'".
+    Muuten:
+        Sano "'Puhu hänelle. En ole enää niin nuori. Pelkään häntä.'".
 
 Sulje nimiavaruus.

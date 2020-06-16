@@ -2,6 +2,7 @@
 
 Määritelmä. Huone (A) on "[huoneen (B)] vieressä", jos:
     B:n naapurihuonejoukko sisältää A:n
+    A:n naapurihuonejoukko sisältää B:n
 
 Vaeltaja on ihmisen alakäsite.
 
@@ -16,13 +17,14 @@ Heti ajan kulumisen jälkeen:
         Jos V on kiireinen:
             V on nyt kiireetön.
         Muuten:
-            Jos satunnaisluku välillä yhdestä kymmeneen > 7:
-                Jos V:n sijainti on pelaajan sijainti:
-                    Sano "[V] kävelee pois.".
-                V fokalisoijana:
-                    Siirry nyt satunnaiseen yleiseen V:n sijainnin vieressä olevaan huoneeseen.
+            Jos V:n sijainti on yleinen:
+                Jos satunnaisluku välillä yhdestä kymmeneen > 7:
                     Jos V:n sijainti on pelaajan sijainti:
-                        Sano "[V] kävelee paikalle.".
+                        Sano "[V] kävelee pois.".
+                    V fokalisoijana:
+                        Siirry nyt satunnaiseen yleiseen V:n sijainnin vieressä olevaan huoneeseen.
+                        Jos V:n sijainti on pelaajan sijainti:
+                            Sano "[V] kävelee paikalle.".
 
 >> Mustaan mekkoon pukeutunut nainen
 

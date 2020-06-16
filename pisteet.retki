@@ -8,6 +8,9 @@ Pistemäärä on alussa 0.
 Tienattu sakko on kokonaisluku.
 Tienattu sakko on alussa 0.
 
+Virhekerroin on kokonaisluku.
+Virhekerroin on alussa 1.
+
 Muista pääkatu.
 Muista kaupungintalo.
 Muista koulu.
@@ -21,20 +24,25 @@ Ajan kulumisen jälkeen:
 				Sano "Pidätit [I:n] [i:n rikoksesta]. +1 piste[rivinvaihto]".
 				Pistemäärä on nyt (pistemäärä + 1).
 			Muuten:
-				Sano "Pidätit [I:n] väärästä rikoksesta. -1 piste[rivinvaihto]".
-				Pistemäärä on nyt (pistemäärä - 1).
+				Sano "Pidätit [I:n] väärästä rikoksesta. -[(2 * virhekerroin)] pistettä[rivinvaihto]".
+				Pistemäärä on nyt (pistemäärä - (2 * virhekerroin)).
+				Virhekerroin on nyt (virhekerroin + 1).
 		Toista jokaiselle syyttömälle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
-			Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -5 pistettä[rivinvaihto]".
-			Pistemäärä on nyt (pistemäärä - 5).
+			Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
+			Virhekerroin on nyt (virhekerroin + 1).
 		Toista jokaiselle lapselle (L) putkan henkilöjoukossa:
-			Sano "Pidätit lapsen [l:n pidättämisen syystä]. -5 pistettä[rivinvaihto]".
-			Pistemäärä on nyt (pistemäärä - 5).
+			Sano "Pidätit lapsen [l:n pidättämisen syystä]. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
+			Virhekerroin on nyt (virhekerroin + 1).
 		Jos Anni on vapaa:
-			Sano "Et pidättänyt Anni Luotoa, tunnettua rikollista. -5 pistettä[rivinvaihto]".
-			Pistemäärä on nyt (pistemäärä - 5).
+			Sano "Et pidättänyt Anni Luotoa, tunnettua rikollista. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
+			Virhekerroin on nyt (virhekerroin + 1).
 		Jos Joonas on vapaa:
-			Sano "Et pidättänyt Joonas Jokelaa, tunnettua rikollista. -5 pistettä[rivinvaihto]".
-			Pistemäärä on nyt (pistemäärä - 5).
+			Sano "Et pidättänyt Joonas Jokelaa, tunnettua rikollista. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
+			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
+			Virhekerroin on nyt (virhekerroin + 1).
 		Jos parrakas mies on kuollut:
 			Sano "[Parrakas mies] kuoli. -30 pistettä[rivinvaihto]".
 			Pistemäärä on nyt (pistemäärä - 30).

@@ -24,7 +24,7 @@ Ajan kulumisen jälkeen:
 				Sano "Pidätit [I:n] [i:n rikoksesta]. +1 piste[rivinvaihto]".
 				Pistemäärä on nyt (pistemäärä + 1).
 			Muuten:
-				Sano "Pidätit [I:n] väärästä rikoksesta. -[(2 * virhekerroin)] pistettä[rivinvaihto]".
+				Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -[(2 * virhekerroin)] pistettä[rivinvaihto]".
 				Pistemäärä on nyt (pistemäärä - (2 * virhekerroin)).
 				Virhekerroin on nyt (virhekerroin + 1).
 		Toista jokaiselle syyttömälle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:

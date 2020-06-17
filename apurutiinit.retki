@@ -32,15 +32,15 @@ Avun pyytämisen jälkeen:
 	Sano "[rivinvaihto]".
 	Sano "Kokeile seuraavia komentoja:[rivinvaihto]".
 	Sano "- 'tutki ilmoitustaulua' (lyhenne: 't taulu')[rivinvaihto]".
-	Sano "- 'puhu pormestarille' (lyhenne: 't taulu')[rivinvaihto]".
 	Sano "- 'mene etelään' (lyhenne: 'e', etelässä on pääkatu)[rivinvaihto]".
-	Sano "- 'esineet'[rivinvaihto]".
+	Sano "- 'puhu naiselle'[rivinvaihto]".
 	Sano "- 'kello'[rivinvaihto]".
 	Sano "[rivinvaihto]".
 	Sano "Tärkeät mekaniikat:[rivinvaihto]".
 	Sano "- Suunnat: Huoneet on järjestetty ilmansuuntiin toisiinsa nähden. Liikkuminen on helpointa suuntien mukaan.[rivinvaihto]".
-	Sano "- Esineet: 'tutki' kuvailee esinettä, 'ota' ottaa sen mukaan, 'esineet' tulostaa mukana olevat esineet.[rivinvaihto]".
-	Sano "- Putka: 'putka' kertoo, keitä on pidätetty.[rivinvaihto]".
+>	Sano "- Esineet: 'tutki' kuvailee esinettä, 'ota' ottaa sen mukaan, 'esineet' tulostaa mukana olevat esineet.[rivinvaihto]".
+	Sano "- Pidättäminen: 'pidätä henkilö rikoksesta' pidättää; 'putka' kertoo, keitä on pidätetty.[rivinvaihto]".
+	Sano "- Aika: 'kello' kertoo nykyisen ajan. Aikaa on rajoitetusti ja se kuluu, kun liikkuu ja puhuu ihmisille.[rivinvaihto]".
 
 >> Huoneen katsominen
 

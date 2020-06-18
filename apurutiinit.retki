@@ -48,6 +48,17 @@ Tulkitse "katso [huonetta]" huoneen esittelemisenä.
 Tulkitse "tutki [huonetta]" huoneen esittelemisenä.
 Tulkitse "t [huone]" huoneen esittelemisenä.
 
+>> Ihmisen katsominen
+
+> Korvataan kirjaston näkyvyysehto uudella, jossa ei mainita henkilön nimeä.
+
+Ihmisen katsomisen näkyvyysehtoa ei sovelleta.
+
+Ennen piilossa olevan ihmisen katsomista:
+	Sano "Et näe sellaista henkilöä.".
+	Keskeytä toiminto.
+	(uusi näkyvyysehto)
+
 >> Astuminen ja nouseminen
 
 Tulkitse "astu [huoneeseen]" huoneeseen liikkumisena.

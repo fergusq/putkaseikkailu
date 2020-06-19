@@ -7,4 +7,7 @@ putkaseikkailu-web.py: putkaseikkailu.py
 upload: putkaseikkailu-web.py
 	scp putkaseikkailu-web.py lakka.kapsi.fi:sites/iikka.kapsi.fi/www/retki/pyodide/putkaseikkailu.py
 
-.PHONY: upload
+html:
+	for file in *.retki; do python3 ../retki/retki_highlight.py $$file>html/$$file.html; done
+
+.PHONY: upload html

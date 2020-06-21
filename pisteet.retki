@@ -49,6 +49,7 @@ Ajan kulumisen jälkeen:
 		Toista jokaiselle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
 			Tienattu sakko on nyt (tienattu sakko + I:n pidättämisen syyn sakko).
 		Jos pormestari on vapaa:
+			Sano "Pormestari lahjoo liiton poliisia keräämilläsi sakkorahoilla.".
 			Sano "Saat [tienattu sakko] pistettä keräämistäsi sakoista. +[tienattu sakko] pistettä[rivinvaihto]".
 			Pistemäärä on nyt (pistemäärä + tienattu sakko).
 		Muuten:

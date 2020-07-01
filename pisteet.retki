@@ -17,12 +17,12 @@ Muista koulu.
 Muista satama.
 
 Ajan kulumisen jälkeen:
-	Jos nykyisen kellonajan minuuttimäärä = 59:
+	Jos nykyisen kellonajan minuuttimäärä = 15:
 		Sano "Joudut keskeyttämään sen mitä teet, kun kaupungin porteilta kuuluu moottorin ääntä. Liiton poliisi on saapunut toteuttamaan tutkintaa toimistasi kuultuaan, että saatat pidättää viattomia ilman syytä.[rivinvaihto][rivinvaihto]".
 		Toista jokaiselle syylliselle tietokoneen ohjaamalle ihmiselle (I) putkan henkilöjoukossa:
 			Jos I:n pidättämisen syy on I:n rikos:
-				Sano "Pidätit [I:n] [i:n rikoksesta]. +1 piste[rivinvaihto]".
-				Pistemäärä on nyt (pistemäärä + 1).
+				Sano "Pidätit [I:n] [i:n rikoksesta]. +5 pistettä[rivinvaihto]".
+				Pistemäärä on nyt (pistemäärä + 5).
 			Muuten:
 				Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -[(2 * virhekerroin)] pistettä[rivinvaihto]".
 				Pistemäärä on nyt (pistemäärä - (2 * virhekerroin)).
@@ -31,7 +31,7 @@ Ajan kulumisen jälkeen:
 			Sano "Pidätit [I:n] [i:n pidättämisen syystä], mutta hän on syytön. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
 			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
 			Virhekerroin on nyt (virhekerroin + 1).
-		Toista jokaiselle lapselle (L) putkan henkilöjoukossa:
+		Toista jokaiselle syyttömälle lapselle (L) putkan henkilöjoukossa:
 			Sano "Pidätit lapsen [l:n pidättämisen syystä]. -[(5 * virhekerroin)] pistettä[rivinvaihto]".
 			Pistemäärä on nyt (pistemäärä - (5 * virhekerroin)).
 			Virhekerroin on nyt (virhekerroin + 1).

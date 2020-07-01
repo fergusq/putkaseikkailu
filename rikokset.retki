@@ -60,7 +60,7 @@ Ihmisen rikoksesta pidättämisen aikana:
 Ihmisen rikoksesta pidättämisen jälkeen:
     Sano "Pidätät [Hänen] [siitä]. Apulaisseriffi saattaa hänet putkaan.".
     Jos sen sakko > 0:
-        Sano "Pormestari ilahtuu, sillä kaupunki saa nyt [sen sakko] sekeliä sakkorahoja.".
+        Sano "Kaupunki saa nyt [sen sakko] sekeliä sakkorahoja.".
 
 >> Ilman rikosta pidättäminen
 

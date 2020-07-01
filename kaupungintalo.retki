@@ -27,6 +27,13 @@ Vapaalle pormestarille puhumisen aikana:
 Pidätetylle pormestarille puhumisen aikana:
     Sano "'Jos et nyt heti vapauta minua, erotan sinut!'".
 
+Ihmisen rikoksesta pidättämisen jälkeen:
+    Jos sen sakko > 0:
+        Jos pormestari on hän:
+            Sano "Pormestari tosin ei ole tyytyväinen.".
+        Muuten:
+            Sano "Uskot, että pormestari ilahtuu.".
+
 Punapaitainen virkailija on maanpetokseen syyllistynyt ihminen kaupungintalolla.
 "Tällä virkailijalla on punainen neulepusero. Hän vaikuttaa kiireiseltä."
 Tulkitse "virkailija" punapaitaisena virkailijana.
